@@ -9,6 +9,9 @@ module.exports = {
         "dark-purple": "#5C49FB",
         lime: "#D9FFBB",
       },
+      backgroundImage: {
+        home: "url('../src/images/Perlin.png')",
+      },
     },
   },
   plugins: [],

@@ -10,6 +10,10 @@
   padding: 0;
   transition: all ease-in-out 400ms;
 }
+::selection {
+  background-color: #7565FA;
+  color: white;
+}
 ::-webkit-scrollbar {
   display: none;
 }

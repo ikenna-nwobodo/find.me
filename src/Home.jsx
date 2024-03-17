@@ -2,7 +2,7 @@ import React from "react";
 
 function Home() {
   return (
-    <div className="bg-teal-600 w-11/12 flex flex-col gap-10 items-center h-max min-h-[90vh] mt-[8vh]">
+    <div className="w-11/12 flex flex-col relative z-40 gap-10 items-center h-max min-h-[90vh] mt-[8vh]">
       <div className="flex flex-col items-center gap-8">
         <p className="text-[4rem] font-bold text-center text-white w-10/12">
           Find a specialist in any direction
@@ -15,7 +15,7 @@ function Home() {
                 className="flex-1 outline-none placeholder:text-light-purple/60 placeholder:text-sm absolute w-full h-full px-3 text-sm  tracking-wide font-medium top-0 left-0 rounded-lg outline-0 border-none"
                 placeholder="Specialist or service"
               />
-              <div className="bg-transparent backdrop-blur-xl grid place-items-center rounded-r-lg h-full relative z-30 px-2 w-[40px] cursor-pointer">
+              <div className="bg-white backdrop-blur-xl grid place-items-center rounded-r-lg h-full relative z-30 px-2 w-[40px] cursor-pointer">
                 <i class="fa-solid fa-magnifying-glass rounded-lg"></i>
               </div>
             </div>
@@ -39,7 +39,7 @@ function Home() {
           </div>
         </div>
       </div>
-      <div className="bg-red-700 rounded-xl p-3 w-10/12 h-[40vh] grid grid-cols-6 gap-4">
+      <div className="rounded-xl w-10/12 h-[40vh] grid grid-cols-6 gap-4">
         <div className="bg-white rounded-xl relative  col-span-2 overflow-hidden">
           <img
             // src="https://plus.unsplash.com/premium_photo-1664879730345-ae3381805040"
@@ -71,8 +71,35 @@ function Home() {
             <p className="text-sm font-bold">Arbitration System</p>
           </div>
         </div>
-        <div className="bg-white rounded-xl overflow-hidden relative p-4 col-span-2"></div>
-        <div className="bg-white rounded-xl overflow-hidden relative p-4"></div>
+        <div className="rounded-xl overflow-hidden relative flex flex-col justify-between gap-6 col-span-2">
+          <div className="bg-white shadow-xl gap-2 flex items-center p-1.5 h-1/5 rounded-xl">
+            <div className="bg-lime grid place-items-center rounded-full p-1">
+              <span class="material-symbols-outlined !text-light-purple">
+                paid
+              </span>
+            </div>
+            <div className="flex-1">
+              <p className="text-sm font-bold">Easy payment</p>
+              <p className="text-xs font-bold text-black/60">
+                Easy payment method in platform
+              </p>
+            </div>
+          </div>
+          <div className="flex-1 rounded-xl relative h-4/5 shadow-xl overflow-hidden">
+            <img
+              src="https://plus.unsplash.com/premium_photo-1709865803790-1d929a9386b9?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
+              alt=""
+              className="absolute w-full h-full top-0 left-0 object-cover"
+            />
+          </div>
+        </div>
+        <div className="bg-white shadow-xl rounded-xl overflow-hidden relative">
+          <img
+            src="https://plus.unsplash.com/premium_photo-1709311449969-57ca0f6d4489?q=80&w=1887&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
+            alt=""
+            className="absolute w-full h-full top-0 left-0 object-cover"
+          />
+        </div>
       </div>
     </div>
   );
