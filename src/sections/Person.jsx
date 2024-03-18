@@ -3,13 +3,13 @@ import React from "react";
 function Person() {
   return (
     <div className="text-black w-full relative z-40 flex flex-col items-center h-[40vh] md:h-[65vh] mt-[8vh]">
-      <div className="bg-lime rounded-2xl md:rounded-[2rem] shadow-2xl relative flex items-center overflow-hidden p-4 md:p-8 w-full md:w-8/12 h-full  md:h-full">
+      <div className="bg-lime rounded-2xl md:rounded-[2rem] shadow-2xl relative flex justify-center md:justify-normal items-center overflow-hidden p-4 md:p-8 w-full md:w-8/12 h-full  md:h-full">
         <div className="flex flex-col gap-5 relative z-50">
           <p className="font-bold text-3xl md:text-[4rem] md:leading-[5rem] text-dark-purple">
             Find specialists with <br /> Find.me
           </p>
-          <div className="w-full flex justify-center items-center">
-            <div className="bg-white md:w-8/12 h-[40px] flex relative justify-end items-center rounded-lg text-light-purple">
+          <div className="w-full flex justify-center md:justify-start items-center">
+            <div className="bg-white w-full md:w-8/12 h-[40px] flex relative justify-end items-center rounded-lg text-light-purple">
               <input
                 type="text"
                 className="flex-1 outline-none placeholder:text-light-purple/60 placeholder:text-sm absolute w-full h-full px-3 text-sm  tracking-wide font-medium top-0 left-0 rounded-lg outline-0 border-none"

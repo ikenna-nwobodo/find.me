@@ -2,7 +2,7 @@ import React from "react";
 
 function Facts() {
   return (
-    <div className="text-black w-full relative z-40 grid md:grid-cols-3 gap-8 md:gap-10 items-center md:h-[50vh] mt-[8vh]">
+    <div className="text-black w-full relative z-40 grid md:grid-cols-3 gap-8 md:gap-10 items-center md:min-h-[50vh] mt-[8vh]">
       <div className="bg-light-purple rounded-2xl shadow-md p-4 md:p-10 flex flex-col gap-3 h-full">
         <div className="bg-white md:w-[5rem] w-10 h-10 grid place-items-center rounded-full md:h-[5rem]">
           <i class="fa-solid fa-people-group !md:text-[2.5rem] !text-xl"></i>
