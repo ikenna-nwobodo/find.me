@@ -25,7 +25,7 @@ function Nav() {
 
   return (
     <div
-      className={`w-10/12 md:w-10/12 h-[7vh] mt-4 rounded-xl bg-light-purple/60 backdrop-blur-lg p-4 z-50 fixed flex justify-between items-center top-0 ${
+      className={`w-11/12 md:w-10/12 h-[7vh] mt-4 rounded-xl bg-light-purple/60 backdrop-blur-lg p-4 z-50 fixed flex justify-between items-center top-0 ${
         bg
           ? "!md:bg-light-purple/60 !md:backdrop-blur-lg"
           : "md:bg-transparent md:backdrop-blur-0"

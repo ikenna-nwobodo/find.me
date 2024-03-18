@@ -82,7 +82,7 @@ function Stats() {
             </div>
           </div>
         </div>
-        <div className="bg-lime h-16 w-16 md:h-32 md:w-32 -rotate-12 absolute md:z-0 z-40 -bottom-12 md:top-5 right-0 rounded-xl shadow-2xl"></div>
+        <div className="bg-lime h-16 w-16 md:h-32 md:w-32 -rotate-12 absolute md:z-0 z-40 hidden md:block -bottom-12 md:top-5 right-0 rounded-xl shadow-2xl"></div>
         <div className="bg-light-purple h-16 w-16 md:h-32 md:w-32 rotate-45 hidden md:block absolute bottom-5 left-0 z-40 rounded-xl shadow-2xl"></div>
       </div>
     </div>

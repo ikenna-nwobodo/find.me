@@ -8,14 +8,16 @@ function Person() {
           <p className="font-bold text-3xl md:text-[4rem] md:leading-[5rem] text-dark-purple">
             Find specialists with <br /> Find.me
           </p>
-          <div className="bg-white md:w-8/12 h-[40px] flex relative justify-end items-center rounded-lg text-light-purple">
-            <input
-              type="text"
-              className="flex-1 outline-none placeholder:text-light-purple/60 placeholder:text-sm absolute w-full h-full px-3 text-sm  tracking-wide font-medium top-0 left-0 rounded-lg outline-0 border-none"
-              placeholder="Specialist or service"
-            />
-            <div className="bg-white backdrop-blur-xl grid place-items-center rounded-r-lg h-full relative z-30 px-2 w-[40px] cursor-pointer">
-              <i class="fa-solid fa-magnifying-glass rounded-lg"></i>
+          <div className="w-full flex justify-center items-center">
+            <div className="bg-white md:w-8/12 h-[40px] flex relative justify-end items-center rounded-lg text-light-purple">
+              <input
+                type="text"
+                className="flex-1 outline-none placeholder:text-light-purple/60 placeholder:text-sm absolute w-full h-full px-3 text-sm  tracking-wide font-medium top-0 left-0 rounded-lg outline-0 border-none"
+                placeholder="Specialist or service"
+              />
+              <div className="bg-white backdrop-blur-xl grid place-items-center rounded-r-lg h-full relative z-30 px-2 w-[40px] cursor-pointer">
+                <i class="fa-solid fa-magnifying-glass rounded-lg"></i>
+              </div>
             </div>
           </div>
         </div>
