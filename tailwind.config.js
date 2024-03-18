@@ -11,6 +11,7 @@ module.exports = {
       },
       backgroundImage: {
         home: "url('../src/images/Perlin.png')",
+        per: "url('../src/images/person.png')",
       },
     },
   },

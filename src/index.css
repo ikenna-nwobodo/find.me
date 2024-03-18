@@ -11,7 +11,7 @@
   transition: all ease-in-out 400ms;
 }
 ::selection {
-  background-color: #7565FA;
+  background-color: #7565fa;
   color: white;
 }
 ::-webkit-scrollbar {
@@ -33,4 +33,8 @@ code {
 }
 .cabt:hover .icca {
   transform: translateX(5px);
+}
+
+.menu {
+  backdrop-filter: blur(20px) !important;
 }
