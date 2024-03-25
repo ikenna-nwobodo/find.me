@@ -8,7 +8,7 @@ function Stats() {
           <div className="bg-black/30 w-full md:w-6/12 h-[1px]"></div>
         </div>
         <div className="w-10/12 grid md:grid-cols-2 gap-6">
-          <p className="text-2xl md:text-[3rem] md:text-left text-center font-bold tracking-wide">
+          <p className="text-2xl md:text-[3rem] md:leading-[3.5rem] md:text-left text-center font-bold tracking-wide">
             We help real people find good specialists
           </p>
           <div className="flex md:flex-row flex-col justify-center gap-4 items-center">
