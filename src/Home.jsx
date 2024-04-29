@@ -39,7 +39,7 @@ function Home() {
           </div>
         </div>
       </div>
-      <div className="rounded-xl w-full md:w-10/12 h-[40vh] hidden md:grid grid-cols-6 gap-4">
+      <div className="rounded-xl w-full md:w-10/12 h-[40vh] hidden lg:grid grid-cols-6 gap-4">
         <div className="bg-white rounded-xl relative  col-span-2 overflow-hidden">
           <img
             // src="https://plus.unsplash.com/premium_photo-1664879730345-ae3381805040"
